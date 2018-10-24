@@ -3,7 +3,8 @@
 const test = require('ava');
 const React = require('react');
 const render = require('react-test-renderer').create;
-const { state, update, Subscribe } = require('../src/bey');
+// const { state, update, Subscribe } = require('../src/bey');
+const { state, update, Subscribe } = require('bey');
 
 test('state()', t => {
   let counter = state({ count: 1 });
